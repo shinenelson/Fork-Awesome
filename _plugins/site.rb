@@ -109,7 +109,7 @@ module Jekyll
       self.cleanup
       self.write
 
-      self.build
+      # self.build
     end
 
     ##
