@@ -1,3 +1,5 @@
+host:             0.0.0.0
+
 # used in building icon pages
 icon_meta:        icons.yml
 icon_layout:      icon.html    # Relative to _layouts directory
