@@ -1,0 +1,8 @@
+# used in building icon pages
+icon_meta:        icons.yml
+icon_layout:      icon.html    # Relative to _layouts directory
+
+forkawesome:
+  name:           Fork Awesome
+  tagline:        A fork of the iconic font and CSS toolkit
+  url:            https://forkaweso.me/Fork-Awesome/
