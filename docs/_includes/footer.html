@@ -1,0 +1,36 @@
+<footer id="footer" class="footer hidden-print">
+  <div class="container text-center">
+    <div>
+      <i class="fa fa-fork-awesome" aria-hidden="true"></i>
+      {{ site.forkawesome.name }} {{ site.forkawesome.version }}
+      <span class="hidden-xs">&middot;</span>
+      <br class="hidden-sm hidden-md hidden-lg">
+      A fork of {{ site.fontawesome.name }}, originally created by
+      <a href="https://github.com/{{ site.fontawesome.author.github }}">
+        {{ site.fontawesome.author.name }}
+      </a>, now maintained by a community.
+    </div>
+    <div>
+      {{ site.forkawesome.name }} is licensed under
+      <a href="{{ site.forkawesome.license.font.url }}">
+        {{ site.forkawesome.license.font.version }}
+      </a>
+      <span class="hidden-xs">&middot;</span>
+      <br class="hidden-sm hidden-md hidden-lg">
+      Code is licensed under
+      <a href="{{ site.forkawesome.license.code.url }}">
+        {{ site.forkawesome.license.code.version }}
+      </a>
+      <span class="hidden-xs hidden-sm">&middot;</span>
+      <br class="hidden-md hidden-lg">
+      Documentation is licensed under
+      <a href="{{ site.forkawesome.license.documentation.url }}">
+        {{ site.forkawesome.license.documentation.version }}
+      </a>
+    </div>
+    <div class="project">
+      <a href="{{ site.forkawesome.github.url }}">GitHub Project</a> &middot;
+      <a href="{{ site.forkawesome.github.url }}/issues">Issues</a>
+    </div>
+  </div>
+</footer>

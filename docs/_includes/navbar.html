@@ -1,0 +1,193 @@
+<nav class="navbar navbar-inverse navbar-static-top hidden-print">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <i class="fa fa-bars fa-lg" aria-hidden="true" title="Toggle navigation"></i>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <a class="navbar-brand" href="">
+        <i class="fa fa-fork-awesome" aria-hidden="true"></i>
+        {{ site.forkawesome.name }}
+      </a>
+    </div>
+
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+
+        <li {% if page.slug == "whats-new" %} class="active" {% endif %}>
+          <a href="whats-new" class="hidden-sm">What's New</a>
+          <a href="whats-new" class="hidden-xs hidden-md hidden-lg">New</a>
+        </li>
+
+        <li {% if page.slug == "get-started" %} class="active" {% endif %}>
+          <a href="get-started" class="hidden-sm">Get Started</a>
+          <a href="get-started" class="hidden-xs hidden-md hidden-lg">Start</a>
+        </li>
+
+        <li {% if page.slug == "icons" %} class="active" {% endif %}>
+          <a href="icons" class="hidden-sm hidden-md hidden-lg">Icons</a>
+          <a href="#" class="hidden-xs dropdown-toggle" data-toggle="dropdown">
+            Icons
+            <i class="fa fa-caret-down" aria-hidden="true" title="Toggle dropdown menu"></i>
+            <span class="sr-only">Toggle dropdown menu</span>
+            <span class="toggle drop down"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="icons">
+                <i class="fa fa-flag fa-fw" aria-hidden="true"></i>
+                Icons
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="icons#new">
+                <i class="fa fa-handshake-o fa-fw" aria-hidden="true"></i>
+                New Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#web-application">
+                <i class="fa fa-camera-retro fa-fw" aria-hidden="true"></i>
+                Web Application Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#accessibility">
+                <i class="fa fa-universal-access fa-fw" aria-hidden="true"></i>
+                Accessibility Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#hand">
+                <i class="fa fa-hand-spock-o fa-fw" aria-hidden="true"></i>
+                Hand Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#transportation">
+                <i class="fa fa-ship fa-fw" aria-hidden="true"></i>
+                Transportation Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#gender">
+                <i class="fa fa-venus fa-fw" aria-hidden="true"></i>
+                Gender Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#file-type">
+                <i class="fa fa-file-image-o fa-fw" aria-hidden="true"></i>
+                File Type Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#spinner">
+                <i class="fa fa-spinner fa-fw" aria-hidden="true"></i>
+                Spinner Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#form-control">
+                <i class="fa fa-check-square fa-fw" aria-hidden="true"></i>
+                Form Control Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#payment">
+                <i class="fa fa-credit-card fa-fw" aria-hidden="true"></i>
+                Payment Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#chart">
+                <i class="fa fa-pie-chart fa-fw" aria-hidden="true"></i>
+                Chart Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#currency">
+                <i class="fa fa-won fa-fw" aria-hidden="true"></i>
+                Currency Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#text-editor">
+                <i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>
+                Text Editor Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#directional">
+                <i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i>
+                Directional Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#video-player">
+                <i class="fa fa-play-circle fa-fw" aria-hidden="true"></i>
+                Video Player Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#brand">
+                <i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>
+                Brand Icons
+              </a>
+            </li>
+            <li>
+              <a href="icons#medical">
+                <i class="fa fa-medkit fa-fw" aria-hidden="true"></i>
+                Medical Icons
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li {% if page.slug == "examples" %} class="active" {% endif %}>
+          <a href="examples" class="hidden-sm hidden-md hidden-lg">Examples</a>
+          <a href="#" class="hidden-xs dropdown-toggle" data-toggle="dropdown">
+            Examples
+            <i class="fa fa-caret-down" aria-hidden="true" title="Toggle dropdown menu"></i>
+            <span class="sr-only">Toggle dropdown menu</span>
+            <span class="toggle drop down"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="examples">Examples</a></li>
+            <li class="divider"></li>
+            <li><a href="examples#basic">Basic Icons</a></li>
+            <li><a href="examples#larger">Larger Icons</a></li>
+            <li><a href="examples#fixed-width">Fixed Width Icons</a></li>
+            <li><a href="examples#list">List Icons</a></li>
+            <li><a href="examples#bordered-pulled">Bordered & Pulled Icons</a></li>
+            <li><a href="examples#animated">Animated Icons</a></li>
+            <li><a href="examples#accessible">Accessibility-Minded</a></li>
+            <li><a href="examples#rotated-flipped">Rotated &amp; Flipped Icons</a></li>
+            <li><a href="examples#stacked">Stacked Icons</a></li>
+            <li><a href="examples#bootstrap">Bootstrap 3 Examples</a></li>
+            <li><a href="examples#custom">Custom CSS</a></li>
+          </ul>
+        </li>
+
+        <li {% if page.slug == "accessibility" %} class="active" {% endif %}>
+          <a href="accessibility" class="hidden-sm">Accessibility</a>
+          <a href="accessibility" class="hidden-xs hidden-md hidden-lg">
+            <i class="fa fa-universal-access"></i>
+          </a>
+        </li>
+
+        <li {% if page.slug == "community" %} class="active" {% endif %}>
+          <a href="community/">Community</a>
+        </li>
+
+        <li {% if page.slug == "license" %} class="active" {% endif %}>
+          <a href="license/">License</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>

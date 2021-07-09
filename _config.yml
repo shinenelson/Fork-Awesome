@@ -1,0 +1,35 @@
+host:               0.0.0.0
+
+source:             docs
+
+forkawesome:
+  name:             Fork Awesome
+  tagline:          A fork of the iconic font and CSS toolkit
+  version:          1.1.7
+  github:
+    url:            https://github.com/ForkAwesome/Fork-Awesome
+  license:
+    font:
+      version:      SIL OFL 1.1
+      url:          http://scripts.sil.org/OFL
+    code:
+      version:      MIT License
+      url:          http://opensource.org/licenses/mit-license.html
+    documentation:
+      version:      CC BY 3.0
+      url:          http://creativecommons.org/licenses/by/3.0/
+
+fontawesome:
+  name:             Font Awesome
+  author:
+    name:           Dave Gandy
+    github:         davegandy
+
+bootstrap:
+  version:          3.3.5
+  css_sri:          sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc=
+  js_sri:           sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc=
+
+jquery:
+  version:          1.11.3
+  sri:              sha256-rsPUGdUPBXgalvIj4YKJrrUlmLXbOb6Cp7cdxn1qeUc=
