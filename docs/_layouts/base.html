@@ -45,10 +45,13 @@
 </head>
 <body class="font-awesome {{ page.view_class }}">
   <!-- <div id="wrap"> necessary for sticky footer. wrap all content except footer -->
-    {% include navbar.html %}
+  {% include navbar.html %}
+  {% include jumbotron.html %}
 
+  <div class="container">
     {{ content }}
-  <!-- </div> -->
+  </div>
+
   {% include footer.html %}
   <script
     src="https://cdn.jsdelivr.net/npm/jquery@{{ site.jquery.version }}/dist/jquery.min.js"
