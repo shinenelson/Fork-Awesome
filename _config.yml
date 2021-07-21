@@ -18,6 +18,11 @@ forkawesome:
     documentation:
       version:      CC BY 3.0
       url:          http://creativecommons.org/licenses/by/3.0/
+  cdn:
+    name:           jsDelivr
+    package_prefix: https://www.jsdelivr.com/package/npm
+    url_prefix:     https://cdn.jsdelivr.net/npm
+    integrity:      sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=
 
 fontawesome:
   name:             Font Awesome
