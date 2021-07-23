@@ -1,10 +1,17 @@
 <section id="rotated-flipped">
   <h2 class="page-header">
     Rotated &amp; Flipped
-    <div class="pull-right text-default margin-top padding-top-sm hidden-xs">
-      <a href="https://github.com/{{ site.forkawesome.github.org }}/{{ site.forkawesome.github.project }}/blob/{{ site.forkawesome.version }}/less/rotated-flipped.less" class="text-muted padding-right">View LESS</a>
-      <a href="https://github.com/{{ site.forkawesome.github.org }}/{{ site.forkawesome.github.project }}/blob/{{ site.forkawesome.version }}/scss/_rotated-flipped.scss" class="text-muted">View SASS</a>
-    </div>
+    <small class="pull-right hidden-xs"
+      style="margin-top: 10px; padding-top: 5px;">
+      <a class="text-muted" style="padding-right: 10px;"
+        href="{{ site.forkawesome.github.url }}/blob/{{ site.forkawesome.version }}/less/rotated-flipped.less">
+        View LESS
+      </a>
+      <a class="text-muted"
+        href="{{ site.forkawesome.github.url }}/blob/{{ site.forkawesome.version }}/scss/_rotated-flipped.scss">
+        View SASS
+      </a>
+    </small>
   </h2>
   <div class="row">
     <div class="col-md-3 col-sm-4">
@@ -19,7 +26,8 @@
     </div>
     <div class="col-md-9 col-sm-8">
       <p>
-        To arbitrarily rotate and flip icons, use the <code>fa-rotate-*</code> and <code>fa-flip-*</code> classes.
+        To arbitrarily rotate and flip icons, use the <code>fa-rotate-*</code>
+        and <code>fa-flip-*</code> classes.
       </p>
 {% highlight html %}
 <i class="fa fa-shield"></i> normal<br>
