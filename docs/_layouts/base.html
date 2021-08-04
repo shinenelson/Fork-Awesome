@@ -14,7 +14,7 @@
   <!-- CSS
   ================================================== -->
   <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/css/bootstrap.min.css"
+    href="{{ site.forkawesome.cdn.url_prefix }}/bootstrap@{{ site.bootstrap.version }}/dist/css/bootstrap.min.css"
     integrity="{{ site.bootstrap.css_sri }}" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="assets/css/site.css"> -->
   <link rel="stylesheet" href="assets/css/share.min.css">
@@ -54,11 +54,11 @@
 
   {% include footer.html %}
   <script
-    src="https://cdn.jsdelivr.net/npm/jquery@{{ site.jquery.version }}/dist/jquery.min.js"
+    src="{{ site.forkawesome.cdn.url_prefix }}/jquery@{{ site.jquery.version }}/dist/jquery.min.js"
     integrity="{{ site.jquery.sri }}"
     crossorigin="anonymous"></script>
   <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/js/bootstrap.min.js"
+    src="{{ site.forkawesome.cdn.url_prefix }}/bootstrap@{{ site.bootstrap.version }}/dist/js/bootstrap.min.js"
     integrity="{{ site.bootstrap.js_sri }}"
     crossorigin="anonymous"></script>
   <!--
