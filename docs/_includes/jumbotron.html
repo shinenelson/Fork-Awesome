@@ -7,5 +7,10 @@
     <!-- hack to allow variables within YAML front-matter -->
     <!-- https://stackoverflow.com/a/14650794 -->
     <p>{{ page.subtitle | replace: '!fa-name!', site.forkawesome.name | replace: '!fa-version!', site.forkawesome.version }}</p>
+    {% if page.url == "/" %}
+
+      {% include download-button-modal.html style="" %}
+
+    {% endif %}
   </div>
 </div>
