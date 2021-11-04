@@ -23,7 +23,7 @@ Thanks to [{{ site.forkawesome.cdn.name }}] for providing the CDN for {{ site.fo
 
 ## Download &amp; Customize
 
-{% include download-button-modal.html %}
+{% include download-button-modal.html style="pull-right" %}
 
 #### Want to manage and host Fork Awesome assets yourself? You can download, customize, and use the icons and default styling manually. Both CSS and CSS Preprocessor (Sass and Less) formats are included.
 
