@@ -55,3 +55,7 @@ h2{
   background: #101010;
   border-radius: 5px;
 }
+
+.text-muted {
+  color: #b3b3b3;
+}
