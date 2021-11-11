@@ -11,6 +11,8 @@ jumbotron-icon: lightbulb-o
 
 {% include versions/feature-list.html %}
 
+{% include versions/news-icons.html %}
+
 ## Switching from Font Awesome 4.7?
 ---
 
