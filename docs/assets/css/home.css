@@ -20,3 +20,38 @@ h2{
 .lead .fa-heart{
   color: red;
 }
+
+.forkawesome-icon-list {
+    margin-top: 22px;
+}
+
+.forkawesome-icon-list .fa-hover a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  color: #222;
+  line-height: 32px;
+  height: 32px;
+  padding-left: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.forkawesome-icon-list .fa-hover a .fa {
+  width: 32px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.forkawesome-icon-list .fa-hover a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.fa-hover:hover{
+  background: #101010;
+  border-radius: 5px;
+}
