@@ -4,10 +4,10 @@
   <!-- Basic Page Needs
  ================================================== -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="{{ site.forkawesome.name }}, {{ site.forkawesome.tagline }}">
-  <meta name="author" content="The Fork Awesome community">
-  <link rel="shortcut icon" href="assets/favicon.ico">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="{{ site.forkawesome.name }}, {{ site.forkawesome.tagline }}" />
+  <meta name="author" content="The Fork Awesome community" />
+  <link rel="shortcut icon" href="assets/favicon.ico" />
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}Fork Awesome</title>
 
@@ -15,28 +15,31 @@
   ================================================== -->
   <link rel="stylesheet"
     href="{{ site.forkawesome.cdn.url_prefix }}/bootstrap@{{ site.bootstrap.version }}/dist/css/bootstrap.min.css"
-    integrity="{{ site.bootstrap.css_sri }}" crossorigin="anonymous">
+    integrity="{{ site.bootstrap.css_sri }}" crossorigin="anonymous" />
   <!-- <link rel="stylesheet" href="assets/css/site.css"> -->
-  <link rel="stylesheet" href="assets/css/share.min.css">
-  <link rel="stylesheet" href="assets/css/pygments.css">
-  <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="stylesheet" href="{{ 'assets/css/share.min.css' | absolute_url }}" />
+  <link rel="stylesheet" href="{{ 'assets/css/pygments.css' | absolute_url }}" />
+  <link rel="stylesheet" href="{{ 'assets/css/home.css' | absolute_url }}" />
   <link rel="stylesheet"
     href="{{ site.forkawesome.cdn.url_prefix }}/{{ site.forkawesome.name | slugify }}@{{ site.forkawesome.version }}/css/fork-awesome.min.css"
-    integrity="{{ site.forkawesome.cdn.integrity }}" crossorigin="anonymous">
+    integrity="{{ site.forkawesome.cdn.integrity }}" crossorigin="anonymous" />
 
   <!-- Twitter
   ================================================== -->
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% endif %}">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:description" content="{{ site.forkawesome.name }}, {{ site.forkawesome.tagline }}">
-  <meta name="twitter:image" content="{{ 'assets/banner.jpg' | absolute_url }}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% endif %}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:description" content="{{ site.forkawesome.name }}, {{ site.forkawesome.tagline }}" />
+  <meta name="twitter:image" content="{{ 'assets/banner.jpg' | absolute_url }}" />
 
   <!-- FACEBOOK
   ================================================== -->
   <meta property="og:url" content="{{ site.url }}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}">
-  <meta name="description" property="og:description" content="{{ site.forkawesome.name }}, {{ site.forkawesome.tagline }}" />
-  <meta property="og:image" content="{{ 'assets/banner.jpg' | absolute_url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}" />
+  <meta
+    name="description"
+    property="og:description"
+    content="{{ site.forkawesome.name }}, {{ site.forkawesome.tagline }}" />
+  <meta property="og:image" content="{{ 'assets/banner.jpg' | absolute_url }}" />
 
   <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
@@ -44,7 +47,7 @@
   <![endif]-->
 
 </head>
-<body class="font-awesome {{ page.view_class }}">
+<body class="fork-awesome {{ page.view_class }}">
   <!-- <div id="wrap"> necessary for sticky footer. wrap all content except footer -->
   {% include navbar.html %}
   {% include jumbotron.html %}
@@ -68,7 +71,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/{{ site.bootstrap.version }}/js/bootstrap.min.js"></script>
   <script src="assets/js/site.js"></script>
   -->
-  <script src="assets/js/share.min.js"></script>
+  <script src="{{ 'assets/js/share.min.js' | absolute_url }}"></script>
 
   </body>
 </html>
