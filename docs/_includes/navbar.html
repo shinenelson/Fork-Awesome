@@ -15,19 +15,13 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
 
-        <!--
-        <li{% if page.title == "What's New" %} class="active" {% endif %}>
-          <a href="whats-new" class="hidden-sm">What's New</a>
-          <a href="whats-new" class="hidden-xs hidden-md hidden-lg">New</a>
-        </li>
-        -->
-
         <li{% if page.title == "Fork Awesome" %} class="active" {% endif %}>
           <a href="{{ '' | absolute_url }}">Home</a>
         </li>
 
         <li{% if page.title == "What's New" %} class="active" {% endif %}>
           <a href="{{ 'whats-new' | absolute_url }}">What's New</a>
+          <a href="{{ 'whats-new' | absolute_url }}" class="hidden-xs hidden-md hidden-lg">New</a>
         </li>
 
         <li{% if page.title  == "Get Started" %} class="active" {% endif %}>
