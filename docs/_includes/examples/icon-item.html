@@ -1,5 +1,11 @@
 <div class="fa-hover col-md-3 col-sm-4">
   <a href="icon/{{ include.icon }}">
-    <i class="fa fa-{{ include.icon }}" aria-hidden="true"></i> <span class="sr-only">Example of </span> {{ include.name }}
+    <i class="fa fa-{{ include.icon }}" aria-hidden="true"></i> <span class="sr-only">Example of </span>
+    {% if include.alias == nil %}
+      {{ include.icon }}
+    {% endif %}
+    {% if include.alias != nil %}
+      {{ include.alias }} <span class="text-muted">(alias)</span>
+    {% endif %}
   </a>
 </div>
