@@ -46,6 +46,9 @@
         Unicode: <span class="upper">{{ page.unicode }}</span> ·
         Created: {{ page.version-created }} ·
         Categories: {{ page.categories }}
+        {% if page.aliases != nil %}
+        · Aliases: {{ page.aliases }}
+        {% endif %}
         {% if page.web != nil %}
         · <a target="_blank" rel="nofollow" href="https://{{ page.web }}">{{ page.web }}<i class="fa fa-external-link-square margin-left-sm"></i></a>
         {% endif %}
