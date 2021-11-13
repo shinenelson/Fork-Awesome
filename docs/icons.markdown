@@ -7,4 +7,6 @@ jumbotron-icon: fork-awesome
 
 {% include versions/news-icons.html %}
 
+{% include examples/accessibility-icons.html %}
+
 {% include examples/chart-icons.html %}
