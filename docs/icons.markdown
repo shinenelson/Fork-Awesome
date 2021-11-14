@@ -9,4 +9,6 @@ jumbotron-icon: fork-awesome
 
 {% include examples/accessibility-icons.html %}
 
+{% include examples/hand-icons.html %}
+
 {% include examples/chart-icons.html %}
