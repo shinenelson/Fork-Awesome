@@ -11,6 +11,8 @@ jumbotron-icon: fork-awesome
 
 {% include examples/hand-icons.html %}
 
+{% include examples/spinner-icons.html %}
+
 {% include examples/chart-icons.html %}
 
 {% include examples/medical-icons.html %}
