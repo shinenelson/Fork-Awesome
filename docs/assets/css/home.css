@@ -1,0 +1,102 @@
+.feature-list{
+  padding: 20px 0px;
+}
+
+.freature-item{
+  padding: 15px;
+}
+
+h2{
+  margin: 30px 0px;
+}
+
+.lead {
+  font-size: 26px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.lead .fa-heart{
+  color: red;
+}
+
+.forkawesome-icon-list {
+    margin-top: 22px;
+}
+
+.forkawesome-icon-list .fa-hover a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  color: #222;
+  line-height: 32px;
+  height: 32px;
+  padding-left: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.forkawesome-icon-list .fa-hover a .fa {
+  width: 32px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.forkawesome-icon-list .fa-hover a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.fa-hover:hover{
+  background: #101010;
+  border-radius: 5px;
+}
+
+.text-muted {
+  color: #b3b3b3;
+}
+
+.jumbotron .info-icons {
+    font-size: 14px;
+}
+
+.jumbotron .fa-1, .jumbotron .fa-2, .jumbotron .fa-3, .jumbotron .fa-4, .jumbotron .fa-5, .jumbotron .fa-6 {
+  margin-right: 0.07142857em;
+}
+
+.jumbotron .fa-6 {
+  font-size: 20em;
+}
+
+.jumbotron .fa-5 {
+  font-size: 12em;
+}
+
+.jumbotron .fa-4 {
+  font-size: 7em;
+}
+
+.jumbotron .fa-3 {
+  font-size: 4em;
+}
+
+.jumbotron .fa-2 {
+  font-size: 2em;
+}
+
+h1.info-class {
+  font-size: 30px;
+  color: #222;
+  margin-top: 40px;
+}
+
+h1.info-class small {
+  letter-spacing: normal;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 14px;
+  margin-left: 20px;
+}

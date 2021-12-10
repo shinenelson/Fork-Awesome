@@ -1,5 +1,6 @@
 <div class="jumbotron hidden-print">
   <div class="container">
+    {% if page.dir != '/icon/' %}
     <h1>
       <i class="fa fa-{{ page.jumbotron-icon }}" aria-hidden=true></i>
       {{ page.title }}
@@ -7,5 +8,53 @@
     <!-- hack to allow variables within YAML front-matter -->
     <!-- https://stackoverflow.com/a/14650794 -->
     <p>{{ page.subtitle | replace: '!fa-name!', site.forkawesome.name | replace: '!fa-version!', site.forkawesome.version }}</p>
+    {% endif %}
+    {% if page.url == "/" %}
+
+      {% include download-button-modal.html style="" %}
+
+    {% endif %}
+
+    {% if page.dir == '/icon/' %}
+    <div class="info-icons text-center">
+      <i class="fa fa-{{ page.jumbotron-icon }} fa-6" aria-hidden="true"></i>
+      <span class="sr-only">Example of {{ page.jumbotron-icon }} at 6x</span>&nbsp;&nbsp;
+      <span class="hide-xs">
+        <i class="fa fa-{{ page.jumbotron-icon }} fa-5" aria-hidden="true"></i>
+        <span class="sr-only">Example of {{ page.jumbotron-icon }} at 5x</span>
+        &nbsp;&nbsp;
+        <span class="hide-sm">
+          <i class="fa fa-{{ page.jumbotron-icon }} fa-4" aria-hidden="true"></i>
+          <span class="sr-only">Example of {{ page.jumbotron-icon }} at 4x</span>
+          &nbsp;&nbsp;
+        </span>
+        <i class="fa fa-{{ page.jumbotron-icon }} fa-3" aria-hidden="true"></i>
+        <span class="sr-only">Example of {{ page.jumbotron-icon }} at 3x</span>
+        &nbsp;&nbsp;
+        <i class="fa fa-{{ page.jumbotron-icon }} fa-2" aria-hidden="true"></i>
+        <span class="sr-only">Example of {{ page.jumbotron-icon }} at 2x</span>
+        &nbsp;
+      </span>
+      <i class="fa fa-{{ page.jumbotron-icon }} fa-1" aria-hidden="true"></i>
+      <span class="sr-only">Example of {{ page.jumbotron-icon }}</span>
+    </div>
+
+    <h1 class="info-class text-center">
+      fa-{{ page.jumbotron-icon }}
+      <small>
+        <i class="fa fa-{{ page.jumbotron-icon }}" aria-hidden="true"></i> ·
+        Unicode: <span class="upper">{{ page.unicode }}</span> ·
+        Created: {{ page.version-created }} ·
+        Categories: {{ page.categories }}
+        {% if page.aliases != nil %}
+        · Aliases: {{ page.aliases }}
+        {% endif %}
+        {% if page.web != nil %}
+        · <a target="_blank" rel="nofollow" href="https://{{ page.web }}">{{ page.web }}<i class="fa fa-external-link-square margin-left-sm"></i></a>
+        {% endif %}
+      </small>
+    </h1>
+    {% endif %}
+
   </div>
 </div>

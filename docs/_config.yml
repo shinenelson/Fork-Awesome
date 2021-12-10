@@ -1,7 +1,7 @@
 forkawesome:
   name:             Fork Awesome
   tagline:          A fork of the iconic font and CSS toolkit
-  version:          1.1.7
+  version:          1.2.0
   github:
     url:            https://github.com/ForkAwesome/Fork-Awesome
   license:
@@ -18,7 +18,7 @@ forkawesome:
     name:           jsDelivr
     package_prefix: https://www.jsdelivr.com/package/npm
     url_prefix:     https://cdn.jsdelivr.net/npm
-    integrity:      sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=
+    integrity:      sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=
 
 fontawesome:
   name:             Font Awesome
@@ -34,3 +34,5 @@ bootstrap:
 jquery:
   version:          1.11.3
   sri:              sha256-rsPUGdUPBXgalvIj4YKJrrUlmLXbOb6Cp7cdxn1qeUc=
+
+theme: jekyll-theme-slate
